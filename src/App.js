@@ -1,12 +1,20 @@
 import './App.css';
+import { BrowserRouter as Router, Routes,Route } from "react-router-dom";
+import NavbarMenu from './components/navBar';
+import Footer from './components/footer';
+import Home from "./page/home";
+import About from "./page/competences";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        Oui
-      </header>
-    </div>
+      <Router  basename={process.env.PUBLIC_URL}>
+          <NavbarMenu />
+          <Routes>
+              <Route path="/" element={<Home />} />
+                <Route path="/competences" element={<About />} />
+          </Routes>
+      </Router>
+
   );
 }
 
