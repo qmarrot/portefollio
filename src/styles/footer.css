@@ -1,0 +1,39 @@
+.footer{
+    background-color: #5e6f83;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5;
+    margin-top: 20px;
+}
+
+.socialMedia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+/* Ajoutez ces styles à votre fichier de style (footer.css) */
+
+.socialMedia a {
+    display: inline-block;
+    margin-right: 10px; /* Ajustez la marge entre les icônes selon vos besoins */
+}
+
+.socialMedia .MuiSvgIcon-root {
+    font-size: 80px;
+    color: white;
+}
+
+.socialMedia a:hover .MuiSvgIcon-root {
+    transform: scale(1.5);
+    transition: transform 0.3s;
+}
+
+.socialMedia a:not(:hover) .MuiSvgIcon-root {
+    transform: scale(1); /* Ajustez la valeur pour l'état de base */
+    transition: transform 0.3s;
+}

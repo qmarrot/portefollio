@@ -1,9 +1,30 @@
 .home{
     text-align: center;
+    margin-top: 7%;
 }
 
-h1{
+h2{
     margin-top: 3%;
     font-weight: 700;
     margin-bottom: 1rem;
+    font-family: "Poppins", sans-serif;
+}
+
+.imageAndText {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-left: 300px;
+    width: 80%;
+}
+
+.Image {
+    width: 40%;
+    border-radius: 8px;
+}
+
+.text {
+    text-align: justify;
+    font-size: 120%;
+    margin-right: 20%;
 }

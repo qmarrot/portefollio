@@ -13,6 +13,8 @@ function App() {
               <Route path="/" element={<Home />} />
                 <Route path="/competences" element={<About />} />
           </Routes>
+
+            <Footer />
       </Router>
 
   );
