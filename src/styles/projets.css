@@ -22,3 +22,30 @@
     width: 40%;
     border-radius: 8px;
 }
+
+.NDIProject{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-left: 300px;
+    width: 80%;
+}
+
+.NDIimg{
+    width: 63%;
+    border-radius: 8px;
+}
+
+.NDIText{
+    margin-left: 3%;
+    text-align: justify;
+    font-size: 120%;
+    margin-right: 20%;
+}
+
+.hrS{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 80%;
+    border: 1px solid #000;
+}

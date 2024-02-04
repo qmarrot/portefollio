@@ -1,10 +1,13 @@
 import '../styles/projets.css'
 import imgFaF from './Ressources/F&Fimg.png'
+import imgNDI from './Ressources/NDI.png'
 
 function projets () {
     return (
         <div className="projets">
             <h1>Voici mes projets personnelles </h1>
+
+            <hr className="hrS"/>
 
             <div className="ListOfProject">
                 <div className="FeatAndFunProject">
@@ -24,6 +27,24 @@ function projets () {
                         <p>Cliquez sur l'image pour visiter le site.</p>
                     </div>
                 </div>
+                <hr className="hrS"/>
+                <div className="NDIProject">
+                    <div className="NDIimg">
+                        <a href="https://www.ndi-deploy.fr" className="NDIImg" target="_blank">
+                            <img src={imgNDI} alt="NDI" />
+                        </a>
+                    </div>
+                    <div className="NDIText">
+                        <p>Site web réalisé à l'occasion de la <a href="https://www.nuitdelinfo.com/" target="_blank">nuit de l'info 2023</a>. C'est une compétition qui réunit les étudiants pour travailler ensemble sur le développement d’une application web.</p>
+                        <p>Le but étant de proposer une solution à un problème réel proposé par une entreprise en une nuit.</p>
+                        <p>Cette année il fallait proposer une application web ludique permettant aux utilisateurs de trouver des vraies informations et solutions sur le climat.</p>
+                        <p>En plus de cela les équipes ont le choix de réléver certains défis (Au maximun 5) en plus du site.</p>
+                        <p>Nous avons gagné le defis Accéssibilité de l'entreprise Code-Troopers (<a href="https://www.nuitdelinfo.com/inscription/defis/390" target="_blank">Lien du défi</a>)</p>
+                        <p>Le Frontend a été réaliser sous Angular et le backend sous expressJS et une base de donnée MongoDB</p>
+                    </div>
+                </div>
+                <hr className="hrS"/>
+
             </div>
 
         </div>
