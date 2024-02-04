@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/portefollio/static/css/main.526f5c04.css",
+    "main.js": "/portefollio/static/js/main.585c249f.js",
+    "static/js/787.cc4789d9.chunk.js": "/portefollio/static/js/787.cc4789d9.chunk.js",
+    "static/media/IMG_7160.jpg": "/portefollio/static/media/IMG_7160.3cb454ab6ebecfdf59da.jpg",
+    "static/media/Marrot-Quentin-cvImage.png": "/portefollio/static/media/Marrot-Quentin-cvImage.c8794b347528a247cd91.png",
+    "static/media/Marrot-Quentin-CV.pdf": "/portefollio/static/media/Marrot-Quentin-CV.bcacb6bad7ae62fcf10b.pdf",
+    "index.html": "/portefollio/index.html",
+    "main.526f5c04.css.map": "/portefollio/static/css/main.526f5c04.css.map",
+    "main.585c249f.js.map": "/portefollio/static/js/main.585c249f.js.map",
+    "787.cc4789d9.chunk.js.map": "/portefollio/static/js/787.cc4789d9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.526f5c04.css",
+    "static/js/main.585c249f.js"
+  ]
+}
