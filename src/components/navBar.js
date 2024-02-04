@@ -14,7 +14,7 @@ const NavbarMenu = () => {
             <nav>
                 <Link to="/" onClick={handleLinkClick}>Accueil</Link>
                 <Link to="/competences" onClick={handleLinkClick}>compétences</Link>
-                <Link to="/projects" onClick={handleLinkClick}>Projects</Link>
+                <Link to="/projets" onClick={handleLinkClick}>Projets</Link>
                 <Link to="/contact" onClick={handleLinkClick}>Contact</Link>
                 <div className="animation start-home"></div>
             </nav>

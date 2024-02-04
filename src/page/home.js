@@ -1,5 +1,5 @@
 import "../styles/home.css"
-import image from "./IMG_7160.jpg"
+import image from "./Ressources/IMG_7160.jpg"
 
 function home () {
   return (

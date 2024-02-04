@@ -1,0 +1,24 @@
+.projets{
+    text-align: center;
+    margin-top: 7%;
+}
+
+.FeatAndFunProject{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-left: 300px;
+    width: 80%;
+}
+
+.FeatAndFunText{
+    margin-left: 3%;
+    text-align: justify;
+    font-size: 120%;
+    margin-right: 20%;
+}
+
+.FeatAndFunImage{
+    width: 40%;
+    border-radius: 8px;
+}
