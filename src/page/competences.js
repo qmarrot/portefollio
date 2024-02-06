@@ -1,6 +1,6 @@
 import '../styles/competences.css';
 import cv from './Ressources/Marrot-Quentin-cvImage.png';
-import CVForDownload from './Ressources/Marrot-Quentin-CV.pdf';
+import CVForDownload from './Ressources/MarrotQuentinCVAvecLien.pdf';
 
 function competences() {
   return (
